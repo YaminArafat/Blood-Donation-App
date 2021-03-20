@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.anms.dream">
+<<<<<<< HEAD
+<uses-permission android:name="android.permission.INTERNET"/>
+=======
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+>>>>>>> 9af9301186e29326b3aa6e53c2e3dc53ce39424a
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".donorlogin" />
+        <activity android:name=".receiverlogin" />
+        <activity android:name=".DonorRegForm" />
+        <activity android:name=".DonorReg" />
+        <activity android:name=".DonorHome"></activity>
+    </application>
+
+</manifest>
